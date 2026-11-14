@@ -5,7 +5,7 @@ from settings import *
 
 class menu():
     def __init__(self):
-        self.options = ["1. Play", "2. Help", "3. Credits", "4. Quit"]
+        self.options = ["1. Play", "2. Lore", "3. Credits", "4. Quit"]
         self.option = 0 
         
         self.title_font = pygame.font.Font(egg_font, 76)
