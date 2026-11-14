@@ -1,13 +1,12 @@
 import pygame
-from settings import *
 pygame.init()
-
+from settings import *
+from scenes.menu import *
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("egg escape")
 
-title_text = pygame.font.Font("egg bounce", )
-
+menu = menu()
 run = True
 while run:
     for event in pygame.event.get():
@@ -17,5 +16,8 @@ while run:
             if event.key == pygame.K_x:
                 run = False
 
+
+
     screen.fill(white)
+    screen.blit(menu.title_surface, menu.title_rect)
     pygame.display.flip()

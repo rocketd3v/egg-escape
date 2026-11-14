@@ -4,4 +4,4 @@ SCREEN_HEIGHT = 750
 white = 255, 255, 255
 yellow = 255, 215, 0
 
-egg_font = "/assets/fonts/egg_font.tff"
+egg_font = "/Users/rocket/Desktop/bounce_back/assets/fonts/egg_font.ttf"
